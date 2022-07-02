@@ -1,27 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import AppsIcon from "@material-ui/icons/Apps";
-import { Avatar } from "@material-ui/core";
 import Search from "./Search";
+import HomeHeader from "./HomeHeader";
 import "./Home.css";
 
 const Home = () => {
+
 	return (
 		<div className="home">
 
-		<div className="home__header">
-		   <div className="home__headerLeft">
-		   <Link to="/about">About</Link>
-		   <Link to="/store">Store</Link>
-		   </div>
-
-		   <div className="home__headerRight">
-		   <Link to="/gmail">Gmail</Link>
-		   <Link to="/images">Images</Link>
-		   <AppsIcon />
-		   <Avatar />
-		   </div>
-		</div>
+		<HomeHeader />
 
 		<div className="home__body">
 		   <img src="https://www.edigitalagency.com.au/wp-content/uploads/google-logo-png-transparent-background-large-new.png" alt="google-logo"/>

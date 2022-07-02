@@ -44,3 +44,17 @@
 	object-fit: contain;
 	height: 100px;
 }
+
+.avatar {
+	width: 2.5rem;
+	border-radius: 50px;
+}
+
+.avatar:hover {
+	cursor: pointer;
+}
+
+.logout__button {
+
+
+}

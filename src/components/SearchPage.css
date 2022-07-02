@@ -76,6 +76,12 @@
 	margin-right: 10px;
 }
 
+.searchPage__nullImage {
+	display: block;
+	margin: auto;
+	width: 40%;
+}
+
 .searchPage__resultsTitle {
 	text-decoration: none;
 }
@@ -91,3 +97,4 @@
 .searchPage__resultSnippet {
 	margin-top: 10px;
 }
+
