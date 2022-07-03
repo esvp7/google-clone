@@ -5,14 +5,14 @@
 	background-color: white;
 	z-index: 100;
 	align-items: flex-start;
-	padding: 30px;
+	padding: 1.875rem;
 	border-bottom: 1px solid lightgray;
 }
 
 .searchPage__logo {
 	object-fit: contain;
-	height: 50px;
-	margin-right: 50px;
+	height: 3.125rem;
+	margin-right: 3.125rem;
 }
 
 .searchPage__headerBody > .search > .search__input {
@@ -40,13 +40,13 @@
 }
 
 .searchPage__optionsRight {
-	margin-left: 80px;
+	margin-left: 5rem;
 }
 
 .searchPage__option {
 	display: flex;
 	align-items: center;
-	margin-right: 20px;
+	margin-right: 1.25rem;
 }
 
 .searchPage__option a {
@@ -54,26 +54,26 @@
 }
 
 .searchPage__result {
-	margin: 40px 0;
+	margin: 2.5rem 0;
 }
 
 .searchPage__resultCount {
 	color: #70757a;
-	font-size: 14px;
+	font-size: 0.875rem;
 }
 
 .searchPage__results {
-	max-width: 650px;
-	margin-top: 20px;
-	margin-left: 240px;
-	margin-bottom: 100px;
+	max-width: 40.625rem;
+	margin-top: 1.25rem;
+	margin-left: 15rem;
+	margin-bottom: 6.25rem;
 }
 
 .searchPage__resultImage {
 	object-fit: contain;
-	height: 30px;
-	width: 30px;
-	margin-right: 10px;
+	height: 1.875rem;
+	width: 1.875rem;
+	margin-right: 0.625rem;
 }
 
 .searchPage__nullImage {
@@ -95,6 +95,6 @@
 }
 
 .searchPage__resultSnippet {
-	margin-top: 10px;
+	margin-top: 0.625rem;
 }
 

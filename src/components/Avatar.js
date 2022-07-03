@@ -1,15 +1,21 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useScript } from "../useScript";
-import jwt_decode from "jwt-decode";
+import jwt_deocde from "jwt-decode";
 import "./Home.css";
+
+const userFromLocalStorage = JSON.parse(localStorage.getItem("user") || "[]");
 
 const Avatar = () => {
   const googlebuttonref = useRef();
-  const [user, setuser] = useState(false);
+  const [user, setuser] = useState(userFromLocalStorage);
+
+  useEffect(() => {
+    localStorage.setItem("user", JSON.stringify(user))
+  }, [user]);
 
 	const onGoogleSignIn = (user) => {
     let userCred = user.credential;
-    let payload = jwt_decode(userCred);
+    let payload = jwt_deocde(userCred);
     console.log(payload);
     setuser(payload);
   };
