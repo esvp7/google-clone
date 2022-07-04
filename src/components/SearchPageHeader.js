@@ -26,7 +26,7 @@ const SearchPageHeader = () => {
 		      <div className="searchPage__options">
 		      <div className="searchPage__optionsLeft">
 		      <div className="searchPage__option">
-		       <SearchIcon />
+		       <SearchIcon fontSize="small"/>
 		       <Link to="/search">All</Link>
 		    </div>
 		    <div className="searchPage__option">
@@ -59,7 +59,7 @@ const SearchPageHeader = () => {
 		           <Link to="/tools">Tools</Link>
 		        </div>
 		        <div className="searchPage__option">
-		           <Avatar />
+		           <Avatar className="searchPage__avatar"/>
 		        </div>
 
 		      </div>

@@ -11,21 +11,25 @@
 
 .searchPage__logo {
 	object-fit: contain;
-	height: 3.125rem;
-	margin-right: 3.125rem;
+	height: 4vw;
+	margin-right: 2vw;
 }
 
 .searchPage__headerBody > .search > .search__input {
 	margin-top: 0 !important;
-	width: unset;
-	margin: unset;
-	max-width: unset;
+	width: 52.5vw;
+	height: 5vh;
+	margin: 0 auto;
+	margin-left: 2vw;
+	max-width: 60rem;
+	min-width: 20rem;
 }
 
 .searchPage__options {
 	display: flex;
-	align-items: center;
+	justify-content: space-evenly;
 	color: grey;
+	margin-left: -4rem;
 }
 
 .searchPage__optionsRight a,
@@ -40,17 +44,18 @@
 }
 
 .searchPage__optionsRight {
-	margin-left: 5rem;
+	margin-left: 6vw;
+	margin-right: 1vw;
 }
 
 .searchPage__option {
 	display: flex;
 	align-items: center;
-	margin-right: 1.25rem;
+	margin-right: 2.5vw;
 }
 
 .searchPage__option a {
-	margin-left: 5px;
+	font-size: 0.9rem;
 }
 
 .searchPage__result {
@@ -65,7 +70,7 @@
 .searchPage__results {
 	max-width: 40.625rem;
 	margin-top: 1.25rem;
-	margin-left: 15rem;
+	margin-left: 10vw;
 	margin-bottom: 6.25rem;
 }
 
