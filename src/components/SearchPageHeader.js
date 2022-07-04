@@ -30,23 +30,23 @@ const SearchPageHeader = () => {
 		       <Link to="/search">All</Link>
 		    </div>
 		    <div className="searchPage__option">
-		       <DescriptionIcon />
+		       <DescriptionIcon fontSize="small"/>
 		       <Link to="/news">News</Link>
 		    </div>
 		    <div className="searchPage__option">
-		       <ImageIcon />
+		       <ImageIcon fontSize="small"/>
 		       <Link to="/images">Images</Link>
 		    </div>
 		    <div className="searchPage__option">
-		       <LocalOfferIcon />
+		       <LocalOfferIcon fontSize="small"/>
 		       <Link to="/shopping">Shopping</Link>
 		    </div>
 		    <div className="searchPage__option">
-		       <RoomIcon />
+		       <RoomIcon fontSize="small"/>
 		       <Link to="/maps">Maps</Link>
 		    </div>
 		    <div className="searchPage__option">
-		       <MoreVertIcon />
+		       <MoreVertIcon fontSize="small"/>
 		       <Link to="/more">More</Link>
 		    </div>
 		  </div>

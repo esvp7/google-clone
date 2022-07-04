@@ -44,18 +44,18 @@
 }
 
 .searchPage__optionsRight {
-	margin-left: 6vw;
+	margin-left: 5vw;
 	margin-right: 1vw;
 }
 
 .searchPage__option {
 	display: flex;
 	align-items: center;
-	margin-right: 2.5vw;
+	margin-right: 2.8vw;
 }
 
 .searchPage__option a {
-	font-size: 0.9rem;
+	font-size: 0.94rem;
 }
 
 .searchPage__result {
